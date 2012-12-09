@@ -9,7 +9,9 @@
 #include <iostream>
 using namespace std;
 
+extern int hellovector();
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	hellovector();
 	return 0;
 }
